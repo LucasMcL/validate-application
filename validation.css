@@ -1,0 +1,84 @@
+form {
+  width: 85%;
+  max-width: 720px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: lightgrey;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, textarea {
+  margin: 10px 0 10px 0;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+}
+
+input {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+}
+
+#flex_container_radio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.radio_group {
+  display: flex;
+  flex-direction: column;
+}
+
+#flex_container_check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+#check_labels {
+  display: flex;
+  flex-direction: column;
+}
+
+#check_labels label {
+  margin-right: 30px;
+}
+
+fieldset > label {
+  font-weight: 600;
+}
+
+
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+fieldset {
+	border: solid 3px;
+  margin-bottom: 5px;
+}
+
+legend {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
