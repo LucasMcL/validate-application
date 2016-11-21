@@ -75,6 +75,27 @@ legend {
   font-size: 1.2em;
 }
 
+#email:valid {
+  background: #34C330;
+}
+
+#email:invalid {
+  background: #F06161;
+}
+
+#linkedin_url:valid {
+  background: #34C330;
+}
+
+#linkedin_url:invalid {
+  background: #F06161;
+}
+
+
+
+
+
+
 
 
 
